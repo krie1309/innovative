@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch-JS</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="button" value="Click Here!" onclick="delay()" id="clock">
+    <div class="clock">
+        <div class="outer-clock-face">
+            <div class="marking marking-one"></div>
+            <div class="marking marking-two"></div>
+            <div class="marking marking-three"></div>
+            <div class="marking marking-four"></div>
+            <div class="inner-clock-face">
+                <div class="hand hour-hand"></div>
+                <div class="hand min-hand"></div>
+                <div class="hand second-hand"></div>
+            </div>
+        </div>
+
+        <div id="clock2" onload="currentTime()"></div>
+    </div>
+    <script src="script.js">Enable the javascript to see output</script>
+
+</body>
+
+</html>
